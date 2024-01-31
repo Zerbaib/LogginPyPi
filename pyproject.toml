@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "LoggerPyPi"
+version = "0.1.0"
+description = "A simple logger module for Python."
+authors = ["Zerbaib <zerbaib@proton.me>"]
+license = "MIT"
+
+[project]
+dependencies = ["loggerpypi"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+datetime = "^4.6"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
